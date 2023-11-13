@@ -31,7 +31,7 @@ function Login() {
         event.preventDefault();
         // setErrors(LoginValidation(values));
         try {
-            const response = await axios.post("https://hotelbookingbackend-bg0y.onrender.com/login", values)
+            const response = await axios.post("https://santoshsweets.onrender.com/login", values)
             console.log("hey")
             if (response.status === 200) {
                 const data = response.data;

@@ -21,7 +21,7 @@ function Signup() {
         event.preventDefault();
 
         // Send data to the database if there are no validation errors
-        axios.post("http://localhost:5000/signup", values)
+        axios.post("https://santoshsweets.onrender.com/signup", values)
 
             .then((res) => {
                 if (res.status === 200) {
