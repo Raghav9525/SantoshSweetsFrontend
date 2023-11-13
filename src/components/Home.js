@@ -41,7 +41,7 @@ function Home(props) {
                         <div class="row mt-2">
                             <div class="col-md-4 col-12 mb-4">
                                 <div class="card">
-                                    <img src={require("../html/img/samosa.jpg")} alt="" style={{ height: "230px" }} />
+                                    <img src={require("../html/img/samosa2.jpg")} alt="" style={{ height: "230px" }} />
                                     <div className="card-body">
                                         <h4>Samosa</h4>
                                         <h2 className="text-primary">
